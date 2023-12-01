@@ -1,0 +1,29 @@
+# MacOS
+.DS_Store
+DEVNOTES.txt
+
+# Terraform
+**/.terraform/*
+ignore.*.tfvars
+**/terraform/lambda_handlers/*
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# ide specific
+.idea/
+.vscode/
+
+# Project Specific
+tmp/
+TODO.txt
+configs/dev*.json
+configs/intake/dev*.json
+latch-out.json
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
